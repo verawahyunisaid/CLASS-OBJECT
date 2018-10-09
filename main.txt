@@ -1,0 +1,176 @@
+package verawahyuni;
+
+public class mainkotak {
+	public static void main(String[] args) {
+		kotak kotakKuning = new kotak();
+		
+		kotakKuning.setPanjang(8);
+		kotakKuning.setLebar(5);
+		
+		kotakKuning.hitungLuas();
+		kotakKuning.hitungKeliling();
+	
+		System.out.println("Panjang : " + kotakKuning.getPanjang());
+		System.out.println("Lebar : " + kotakKuning.getLebar());
+		System.out.println("LuasKotak : " + kotakKuning.getLuas());
+		System.out.println("KelilingKotak " + kotakKuning.getKeliling());
+		System.out.println("___________________________________________");
+	}
+
+}
+
+package verawahyuni;
+
+public class mainmahasiswa {
+	public static void main(String[] args) {
+		//Hasil Mahasiswa
+		mahasiswa informatika = new mahasiswa();
+		informatika.setNama("Vera");
+		informatika.setNim("D0217001");
+		informatika.setAlamat("Majene");
+		informatika.setGolonganDarah("O");
+		informatika.setStatus("Mahasiswa");
+		informatika.setTinggiBadan(153);
+		informatika.setBeratBadan(48);
+		
+		System.out.println("Nama : " + informatika.getNama());
+		System.out.println("Nim : " + informatika.getNim());
+		System.out.println("Alamat : " + informatika.getAlamat());
+		System.out.println("GolonganDarah : " + informatika.getGolonganDarah());
+		System.out.println("Status : " + informatika.getStatus());
+		System.out.println("TinggiBadan : " + informatika.getTinggiBadan());
+		System.out.println("BeratBadan : " + informatika.getBeratBadan());
+		System.out.println("---------------------------------------------");
+
+}
+}
+
+package verawahyuni;
+
+public class stackmain {
+	public static void main(String[] args) {
+		stack Stack1 = new stack();
+		System.out.println("________________");
+		Stack1.Value[0] = "vera wahyuni";
+		Stack1.Value[1] = "vera wahyuni";
+		Stack1.Value[2] = "vera wahyuni";
+		Stack1.Value[3] = "vera wahyuni";
+		Stack1.Value[4] = "vera wahyuni";
+		Stack1.Value[5] = "vera wahyuni";
+		Stack1.Value[6] = "vera wahyuni";
+		Stack1.Value[7] = "vera wahyuni";
+		Stack1.Value[8] = "vera wahyuni";
+		Stack1.Value[9] = "vera wahyuni";
+		Stack1.Value[10] = "vera wahyuni";
+		Stack1.Value[11] = "vera wahyuni";
+		Stack1.Value[12] = "vera wahyuni";
+		Stack1.Value[13] = "vera wahyuni";
+		Stack1.Value[14] = "vera wahyuni";
+		Stack1.Value[15] = "vera wahyuni";
+		Stack1.Value[16] = "vera wahyuni";
+		Stack1.Value[17] = "vera wahyuni";
+		Stack1.Value[18] = "vera wahyuni";
+		Stack1.Value[19] = "vera wahyuni";
+		Stack1.Value[20] = "vera wahyuni";
+		Stack1.Value[21] = "vera wahyuni";
+		Stack1.Value[22] = "vera wahyuni";
+		Stack1.Value[23] = "vera wahyuni";
+		Stack1.Value[24] = "vera wahyuni";
+		Stack1.Value[25] = "vera wahyuni";
+		Stack1.Value[26] = "vera wahyuni";
+		Stack1.Value[27] = "vera wahyuni";
+		Stack1.Value[28] = "vera wahyuni";
+		Stack1.Value[29] = "vera wahyuni";
+		Stack1.Value[30] = "vera wahyuni";
+		Stack1.Value[31] = "vera wahyuni";
+		Stack1.Value[32] = "vera wahyuni";
+		Stack1.Value[33] = "vera wahyuni";
+		Stack1.Value[34] = "vera wahyuni";
+		Stack1.Value[35] = "vera wahyuni";
+		Stack1.Value[36] = "vera wahyuni";
+		Stack1.Value[37] = "vera wahyuni";
+		Stack1.Value[38] = "vera wahyuni";
+		Stack1.Value[39] = "vera wahyuni";
+		Stack1.Value[40] = "vera wahyuni";
+		Stack1.Value[41] = "vera wahyuni";
+		Stack1.Value[42] = "vera wahyuni";
+		Stack1.Value[43] = "vera wahyuni";
+		Stack1.Value[44] = "vera wahyuni";
+		Stack1.Value[45] = "vera wahyuni";
+		Stack1.Value[46] = "vera wahyuni";
+		Stack1.Value[47] = "vera wahyuni";
+		Stack1.Value[48] = "vera wahyuni";
+		Stack1.Value[49] = "vera wahyuni";
+		Stack1.Value[50] = "vera wahyuni";
+		Stack1.Value[51] = "vera wahyuni";
+		Stack1.Value[52] = "vera wahyuni";
+		Stack1.Value[53] = "vera wahyuni";
+		Stack1.Value[54] = "vera wahyuni";
+		Stack1.Value[55] = "vera wahyuni";
+		Stack1.Value[56] = "vera wahyuni";
+		Stack1.Value[57] = "vera wahyuni";
+		Stack1.Value[58] = "vera wahyuni";
+		Stack1.Value[59] = "vera wahyuni";
+		Stack1.Value[60] = "vera wahyuni";
+		Stack1.Value[61] = "vera wahyuni";
+		Stack1.Value[62] = "vera wahyuni";
+		Stack1.Value[63] = "vera wahyuni";
+		Stack1.Value[64] = "vera wahyuni";
+		Stack1.Value[65] = "vera wahyuni";
+		Stack1.Value[66] = "vera wahyuni";
+		Stack1.Value[67] = "vera wahyuni";
+		Stack1.Value[68] = "vera wahyuni";
+		Stack1.Value[69] = "vera wahyuni";
+		Stack1.Value[70] = "vera wahyuni";
+		Stack1.Value[71] = "vera wahyuni";
+		Stack1.Value[72] = "vera wahyuni";
+		Stack1.Value[73] = "vera wahyuni";
+		Stack1.Value[74] = "vera wahyuni";
+		Stack1.Value[75] = "vera wahyuni";
+		Stack1.Value[76] = "vera wahyuni";
+		Stack1.Value[77] = "vera wahyuni";
+		Stack1.Value[78] = "vera wahyuni";
+		Stack1.Value[79] = "vera wahyuni";
+		Stack1.Value[80] = "vera wahyuni";
+		Stack1.Value[81] = "vera wahyuni";
+		Stack1.Value[82] = "vera wahyuni";
+		Stack1.Value[83] = "vera wahyuni";
+		Stack1.Value[84] = "vera wahyuni";
+		Stack1.Value[85] = "vera wahyuni";
+		Stack1.Value[86] = "vera wahyuni";
+		Stack1.Value[87] = "vera wahyuni";
+		Stack1.Value[88] = "vera wahyuni";
+		Stack1.Value[89] = "vera wahyuni";
+		Stack1.Value[90] = "vera wahyuni";
+		Stack1.Value[91] = "vera wahyuni";
+		Stack1.Value[92] = "vera wahyuni";
+		Stack1.Value[93] = "vera wahyuni";
+		Stack1.Value[94] = "vera wahyuni";
+		Stack1.Value[95] = "vera wahyuni";
+		Stack1.Value[96] = "vera wahyuni";
+		Stack1.Value[97] = "vera wahyuni";
+		Stack1.Value[98] = "vera wahyuni";
+		Stack1.Value[99] = "vera wahyuni";
+		Stack1.Value[100] = "vera wahyuni";
+	
+		Stack1.setValueAt(7, "verawahyunisaid");
+		for(int i=0;i<Stack1.Value.length;i++)
+		{System.out.println(Stack1.Value[i]);};
+	}
+
+}
+
+package verawahyuni;
+
+public class nodemain {
+	public static void main(String[] args) {
+		node Nodeku = new node();
+		
+		Nodeku.setLabel("Umur Vera");
+		Nodeku.setValue(20);
+		
+		System.out.println( Nodeku.getLabel());
+		System.out.println("Tahun : " + Nodeku.getValue());
+	}
+
+}

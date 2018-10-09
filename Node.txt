@@ -1,0 +1,26 @@
+package verawahyuni;
+
+public class node {
+	//atribut
+		private String Label;
+		private int Value;
+		
+		//function
+		
+		public String getLabel() {
+			return Label;
+		}
+		
+		public void setLabel(String Label) {
+			this.Label = Label;
+		}
+		
+		public int getValue() {
+			return Value;
+		}
+		
+		public void setValue(int Value) {
+			this.Value = Value;
+		}
+	}
+

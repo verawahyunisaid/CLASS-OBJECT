@@ -1,0 +1,10 @@
+package verawahyuni;
+
+public class stack {
+	String[] Value = new String[100];
+	int Top;
+	
+	String setValueAt (int position, String Value) {
+	return Value;
+}
+}
